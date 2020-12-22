@@ -92,6 +92,8 @@ Prop       | Type    | Default    | Description
 `autoFocus`         | boolean  | `true`       | auto focus on code input
 `codeInputStyle`    | style object   |        | custom style for code input
 `containerStyle`    | style object   |        | custom style for code input container
+`activeStyle`       | style object   |        | custom style for code input active
+`inactiveStyle`     | style object   |        | custom style for code input inactive
 `onFulfill`         | function |              | callback function called when fulfilling code. If `compareWithCode` is null -> return `(code)` in callback, else return `(isValid, code)`. **Required**
 `onCodeChange`      | function |              | Get Code text on every update of Field
 ## functions
